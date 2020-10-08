@@ -5,3 +5,32 @@
     text-align: center;
     height: 50vh;
 }
+header{
+    text-transform: uppercase;
+    color:black;
+    text-align:center;
+}
+.main{   
+    margin: 0 auto;
+    padding: 10px 0; 
+    margin-right: 5%;
+    list-style: none;
+} 
+.main li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 50px;
+}
+.main li a{
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+main li a:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6); 
+    background: transparent;
+    cursor: pointer;
+    color: rgba(0, 35, 122, 0.7);
+    list-style: none;
+    border-bottom:3px solid rgb(40, 255, 237);
+}
