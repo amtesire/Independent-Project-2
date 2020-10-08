@@ -1,0 +1,7 @@
+.cover{
+    background-image: url("Pizza/cover1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 50vh;
+}
