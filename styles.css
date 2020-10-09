@@ -44,5 +44,9 @@ main li a:hover{
 }
 footer{
     color: black;
-    
+}
+.container{
+    background-image: url("Pizza/pizza1.jpeg");
+    background-size: cover;
+    background-repeat : no-repeat;
 }
