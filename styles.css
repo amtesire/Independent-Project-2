@@ -62,3 +62,11 @@ footer{
     background-repeat : no-repeat;
     /*background-position: top;*/
 }
+#work, #work1, #work2, #work3, #work4, #work5, #work6, #work7 ,#work8 {
+    cursor: pointer;
+  }
+.wor, .wor1, .wor2, .wor3, .wor4, .wor5, .wor6, .wor7 ,.wor8{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder; 
+}
