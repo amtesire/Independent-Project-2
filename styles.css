@@ -3,7 +3,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    height: 50vh;
 }
 header{
     text-transform: uppercase;
@@ -33,4 +32,17 @@ main li a:hover{
     color: rgba(0, 35, 122, 0.7);
     list-style: none;
     border-bottom:3px solid rgb(40, 255, 237);
+}
+.container-fluid{
+    background-image: url("Pizza/45172dff4e8a000f30842245bff85e25.jpg"); 
+    background-size: cover;
+    height:600px;
+    width:100%;
+    background-repeat : no-repeat;
+    background-position: center;
+    
+}
+footer{
+    color: black;
+    
 }
