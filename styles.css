@@ -9,6 +9,15 @@ header{
     color:black;
     text-align:center;
 }
+h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    word-spacing:5px;
+    margin-bottom: 20px;
+    color:white;
+}
+
 .main{   
     margin: 0 auto;
     padding: 10px 0; 
@@ -24,6 +33,7 @@ header{
     color: blue;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: bolder;
 }
 main li a:hover{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6); 
@@ -44,9 +54,11 @@ main li a:hover{
 }
 footer{
     color: black;
+    font-weight: bolder;
 }
-.container{
+.main1 {
     background-image: url("Pizza/pizza1.jpeg");
     background-size: cover;
     background-repeat : no-repeat;
+    /*background-position: top;*/
 }
