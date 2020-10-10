@@ -20,7 +20,7 @@
             <h2>Checkout Form</h2>
         </header>
         <div class="row">
-            <div class="col-md-12">
+        <div class="col-md-12">
           <form id="checked">
             <div id="checked">
               <div class="checked">
@@ -47,7 +47,6 @@
                 <label for="size2">choose Pizza toppings:</label>
                         
                 <select id="size2" name="size" class="form-control">
-                    <option value="pepperoni">pepperoni</option>
                     <option value="mushrooms">Mushrooms</option>
                     <option value="onions">Onions</option>
                     <option value="sausage">Sausage</option>
@@ -57,9 +56,38 @@
                     <option value="green peppers">Green peppers</option>
                 </select>
                 </div>
-
-    
-    
+                <br>
+                <label for="size3">choose number of pizzas:</label>
+                <input type="number" class="form-control" id="size3" min="1" placeholder="Quantity e.g:5">
+                <div class ="row">
+                 <div class= "col-md-12">
+                     <br>
+                   <span class="btn" id="delivery">Delivery</span>
+                </div>
+                </div>
+               <button type="submit" value="submit" class="btn" >place an order</button>
+                        
+            </div>
+            </div>
+            </form>
+            <br>
+            <h2>Bill payment:</h2>
+            <ul id="payment">
+     
+            </ul>
+        </div>
+        </div>
+        <div class="col-md-6">
+        <div id="show-order">
+              <h2>Receipt</h2>
+              <p>size of Pizza: <span class="size"></span></p>
+              <p>crust of Pizza: <span class="crust"></span></p>
+              <p>Toppings of pizza: <span class="topping"></span></p>
+              <p>Number of Pizza: <span class="quantity"></span></p>
+              <p>total price: <span class="totalPrice"></span></p>
+              <ul id="ordering"></ul>
+        </div>
+        </div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
