@@ -99,8 +99,8 @@ label{
 }
 #show-order{
     display: none;
-    color:black;
-    font-size: 30px;
+    color:rebeccapurple;
+    font-size: 20px;
 }
 body {
     background-color: burlywood;
