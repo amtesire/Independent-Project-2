@@ -1,0 +1,5 @@
+MIT License
+
+Permission is hereby granted to any person who would like to copy, edit or modify, merge, publish, distribute, sublicense.
+
+Copyright(c)2020Independent-Project-2
